@@ -46,13 +46,14 @@ li {
   border-width: 2px;
   border-style: solid;
   border-color: #a63f38;
-
-  padding: .5em 0;
 }
 
 a {
+  display: block;
   text-decoration: none;
   color: white;
+  width: 100%;
+  padding: .5em 0;
 }
 
 .nav a:hover {
@@ -67,4 +68,5 @@ a {
 
 ul {
   margin: 0;
+  padding-left: 0;
 }
