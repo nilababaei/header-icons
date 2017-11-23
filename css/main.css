@@ -55,7 +55,7 @@ a {
   color: white;
 }
 
-nav li:hover {
+.nav a:hover {
   background-color: #a63f38;
 }
 
