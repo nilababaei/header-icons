@@ -9,16 +9,63 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-size: 2rem;
+  margin: 0;
+  padding: .4rem 0;
+}
+
+img {
+  width: 40px;
+  padding: .5em 0 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 h1, li {
   color: white;
   font-weight: bold;
   background-color: #d05c2e;
+  text-align: center;
 }
 
 li {
   font-size: 1.125rem;
+  list-style-type: none;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #a63f38;
+
+  padding: .5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #a63f38;
+}
+
+.nav li {
+  float: left;
+  width: 33.33%;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  width: 100%;
 }
